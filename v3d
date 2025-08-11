@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# v3d - placeholder for an alternate entrypoint
+# For backward compat with upstream scripts that expect v3d
+./v2d "$@"
