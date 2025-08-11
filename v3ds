@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# v3ds - systemd-friendly wrapper to keep bot running
+# Usage: ./v3ds
+while true; do
+  ./v2d || true
+  echo "Bot crashed — restarting in 5s..."
+  sleep 5
+done
